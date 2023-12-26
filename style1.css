@@ -1,6 +1,6 @@
 @font-face {
     font-family: good;
-    src: url(GeneralSans-Medium.otf);
+    src: url(assets/GeneralSans-Medium.otf);
 }
 *{
     margin: 0;
