@@ -62,7 +62,7 @@
     display: none;
 }
 .rightPage{
-    height: 100vh;
+    height: 100%;
     width: 70%;
     float: right;
     background-color: rgb(9, 10, 9);
@@ -141,6 +141,26 @@
 .about{
     font-size:min(20px, 2vw);
 }
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+.bottom button{
+    padding: 5px 10px;
+    margin-top: 31px;
+    margin-left: 4px;
+    background-color: rgba(6, 211, 238, 0.824);
+    border: transparent;
+    border-radius: 15px;
+    font-size: 13px;
+    
+}
+.bottom button:hover{
+    scale: 1.02;
+    /* margin-left: 6px; */
+}
 @media (max-width:1300px) {
     .hero{
         gap: 6px;
@@ -216,5 +236,13 @@
     .about{
         font-size: 3vw;
     }
+    .bottom{
+        flex-direction: column;
+        width: 100%;
+    }
+    .bottom button{
+        margin-top: 15px;
+    }
+
 
 }
