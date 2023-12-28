@@ -141,6 +141,11 @@
 .about{
     font-size:min(20px, 2vw);
 }
+@media (max-width:1300px) {
+    .hero{
+        gap: 6px;
+    }
+}
 @media (max-width:1000px ) {
     .hero{
         gap: 0;
